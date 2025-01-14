@@ -27,4 +27,3 @@
 
 ## 게임 화면
 
-![게임 시작 화면]"C:\Users\gksek\Desktop\;\게임 시작 화면.png"

@@ -44,9 +44,9 @@ class MainApp(QMainWindow, form_class_1):
 class gamePage(QMainWindow, form_class_2):
     def __init__(self, parent):
         super().__init__(parent)
-        self.setWindowTitle("행맨 게임")
 
         self.setupUi(self)
+        self.setWindowTitle("행맨 게임")
         self.life = 7  # 최대생명
 
         for char in "abcdefghijklmnopqrstuvwxyz":  # 알파벳 a-z 반복
