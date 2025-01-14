@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>959</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #FFFFFF</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_q">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>Q</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_w">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_e">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_r">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>R</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_t">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>T</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_y">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_u">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>U</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_i">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_o">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>O</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_p">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>240</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>P</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_a">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_s">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_d">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_f">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_g">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_h">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_j">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_k">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>K</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_l">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>280</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>L</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_z">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_x">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_c">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_v">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_b">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_n">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_m">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>320</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border: none;           /* 테두리 제거 */
+ border-radius: 10px;    /* 둥근 모서리 */
+ background-color: #FFFFFF; /* 배경색: 녹색 */
+ color: blue;           /* 텍스트 색상 */
+ padding: 5px</string>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hintlabel">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>70</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="answerlabel">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>361</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imagelabel">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>40</y>
+      <width>381</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="uselabel">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>370</y>
+      <width>271</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼편지체</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>959</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

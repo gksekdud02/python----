@@ -1,0 +1,10 @@
+{
+    "animal": ["dog", "cat", "elephant", "lion", "tiger", "zebra", "giraffe", "kangaroo", "panda", "wolf"],
+    "fruit": ["apple", "banana", "cherry", "grape", "orange", "pineapple", "strawberry", "watermelon", "kiwi", "mango"],
+    "color": ["red", "blue", "green", "yellow", "purple", "orange", "pink", "black", "white", "brown"],
+    "country": ["korea", "japan", "china", "france", "germany", "brazil", "canada", "australia", "india", "italy"],
+    "vehicle": ["car", "truck", "bicycle", "motorcycle", "airplane", "helicopter", "boat", "train", "bus", "scooter"],
+    "profession": ["doctor", "engineer", "teacher", "lawyer", "chef", "nurse", "scientist", "pilot", "artist", "musician"],
+    "sport": ["soccer", "basketball", "tennis", "cricket", "hockey", "swimming", "baseball", "golf", "boxing", "volleyball"],
+    "technology": ["computer", "smartphone", "tablet", "robot", "algorithm", "database", "network", "software", "hardware", "keyboard"]
+}
